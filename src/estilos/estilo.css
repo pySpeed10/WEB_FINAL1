@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    border:0;
+}
+
+#menu {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: #084e8f;
+    background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+    //border:20px;
+}
+
+#menu-horizontal ul{
+    list-style: none;
+    position:relative;
+    padding: 0;
+    //background-color: rgb(128,128,128);
+    background-color: #084e8f;
+    background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
+    text-align: right;
+    line-height : 60px;
+    height:75px;
+    height-align: center;
+    margin: 10px 20px;
+    border-radius: 10px;
+
+}
+
+#divide1{
+    height:20px;
+    background-color: #084e8f;
+    background-image: url("https://www.transparenttextures.com/patterns/tactile-noise-dark.png");
+}
+
+#IconDru {
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute; 
+	left: 40px; /* posiciona a 10px para a esquerda */ 
+	top: 5px; /* posiciona a 5px para baixo */
+}
+
+html{
+    scroll-behavior: smoth;
+
+}
+
+#galo{
+    
+}
+
+#textoGalo{
+    font-size: 3rem;
+    
+}
+
+
+#menu-horizontal ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#menu-horizontal ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #084E8F;
+    border-radius: 10px;
+
+}
+
+#menu-horizontal ul li a:hover{
+    background-color: red;
+    opacity: 0.5;
+
+}
+
+#cor_fundo{
+    style="background-color: #084e8f; background-color: #084e8f;
+    background-image: url('https://www.transparenttextures.com/patterns/redox-02.png');"
+}
+
+#area1 {
+    background-color: blue;
+    height: 100vh;
+}
+#area2 {
+    //background-color:#C0C0C0;
+    background-color: #084e8f;
+    background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#area3{
+    //background-image: url(./images/circle-blues.svg);
+    display: flex;
+    background-color: #084e8f;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 40vh;
+    
+
+    //rgb (211.211.211)
+}
+
+#area3 h2{
+    position:relative;
+    right:10%;
+    font-size: 1rem;
+}
+
+#area3 img{
+    width:5vh;
+    position:relative;
+    right:10%;
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+    #textoGalo{
+        font-size: 1.5rem;
+    }
+}
+
+  @media only screen and (max-width: 400px){
+    .carousel-inner > .carousel-item > img {
+        top: 35px;
+        width: 150px;
+        height: 50px; 
+        border-radius: 25%;
+        display: flex;
+      }
+}
+
+@media only screen and (min-width: 401px) and (max-width:800px){
+    .carousel-inner > .carousel-item > img {
+        top: 35px;
+        width: 300px;
+        height: 150px; 
+        border-radius: 25%;
+        display: flex;
+      }
+}
+
+@media only screen and (max-width: 801px) and (min-width:1000px){
+    .carousel-inner > .carousel-item > img {
+        top: 75px;
+        width: 700px;
+        height: 350px; 
+        border-radius: 50%;
+        display: flex;
+      }
+}
+
